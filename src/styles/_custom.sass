@@ -10,10 +10,138 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+// General ---------------------------------------
+.titulo-principal__numero > span
+  color: $color-sistema-texto
+.titulo-principal__numero
+  background-color: $color-acento-botones
+.titulo-segundo:after
+  border-left: 50px solid $color-acento-botones
+.pl-4
+  padding-left: 1.5rem
+.text-align-right
+  text-align: right
+.opacity-0
+  opacity: 0
+.m-0-auto
+  margin: 0 auto
+
+// Enlaces
+.anexo
+  background-color: transparent
+.anexo .anexo__texto p
+  color: $color-sistema-texto
+
+// Bloque texto ----------------------------------
+.bloque-texto-a.color-primario
+  background-color: $color-primario
+.bloque-texto-a.color-primario:before
+  background-color: #E8E8E8
+.bloque-texto-a.color-primario-invertido, .bloque-texto-a.color-acento-contenido
+  background-color: #E8E8E8
+.bloque-texto-a.color-primario-invertido:before
+  background-color: $color-primario
+.bloque-texto-a.color-acento-botones
+  background-color: #E8E8E8
+
+// Background Color ------------------------------
+.bg-primario-op25
+  background-color: #17C87840 !important
+.bg-secundario-op25
+  background-color: #E2F6C640 !important
+.bg-acento-contenido
+  background-color: $color-acento-contenido
+.bg-acento-botones
+  background-color: $color-acento-botones
+.bg-amarillo-claro
+  background-color: #FECA2E66 !important
+.bg-azul
+  background-color: #06C1D9
+.bg-azul-claro
+  background-color: #4DD0E1b3
+.bg-gris
+  background-color: #EEF0F2
+.bg-verde-oscuro
+  background-color: #10844A
+.bg-verde-oscuro-opaco
+  background-color: #14A564
+.bg-verde-claro
+  background-color: #E2F6C6
+.bg-amarillo-degradado
+  background: linear-gradient(180deg, rgba(254,202,46,1) 52%, rgba(254,158,46,1) 100%)
+
+  // Borders ---------------------------------------
+.borde-acento-botones-izq
+  border-left: 4px solid $color-acento-botones
+.borde-verde
+  border: solid 3px #29C77B
+.borde-gris
+  border: solid 4px #F6F6F6
+.borde-gris-der
+  border-right: solid 3px #AFAFAF
+.borde-y-none
+  border-bottom: none
+  border-top: none
+.rounded-10
+  border-radius: 10px
+.rounded-20
+  border-radius: 20px
+.rounded-20-der
+  border-top-right-radius: 20px
+  border-bottom-right-radius: 20px
+.rounded-20-izq
+  border-top-left-radius: 20px
+  border-bottom-left-radius: 20px
+
+// Tablas
+.tabla-a table
+  min-width: 0
+.tabla-a th
+  border: solid 1px $white
+.tabla-a.color-acento-botones thead
+  border-color: #e8e8e8
+.tabla-a tr.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+tr.bg-gris p, tr p:last-child
+  margin-bottom: 0
+
+// Listas
+.fas.fa-angle-right.verde
+  color: #17C878
+
+// Slyders
+.slyder-b__img img
+  width: 75%
+  margin: 0 auto
+
+// Linea de tiempo
+.linea-tiempo-c__header__btn:hover, .linea-tiempo-c__header__btn--left:hover, .linea-tiempo-c__header__btn--right:hover, .pasos-b__header__btn--left:hover, .pasos-b__header__btn--right:hover
+  border-color: $color-primario
+
+// Listas
+.fa-brain::before
+  background-image: url(../assets/template/cel.svg)
+  background-repeat: no-repeat
+  background-size: auto
+.lista-ul--color li > i:first-of-type
+  color: transparent
+
+// Acordion
+.acordion__accion__btn--a
+  background-color: #06C1D9
+
+@media only screen and (max-width: 600px)
+  .scroll-x-tabla
+    overflow-x: auto !important
+  .scroll-x-tabla::-webkit-scrollbar
+    height: 5px
+  .scroll-x-tabla::-webkit-scrollbar-thumb
+    background: #FFD947
+  .mmy-3
+    margin: 30px 0 10px 0
