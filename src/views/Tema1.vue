@@ -13,41 +13,43 @@
       .col-10.offset-1
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Fácil acceso")
+            .col-10.col-lg-11.mb-lg-0.mb-3
+              p El fácil acceso y adquisición de estos dispositivos móviles ha generado una creciente necesidad de contenidos generales y particulares.
             .col-2.col-lg-1
               figure
                 img(src="@/assets/template/tema-1-2.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11
-              p El fácil acceso y adquisición de estos dispositivos móviles ha generado una creciente necesidad de contenidos generales y particulares.
           .row(numero="2" titulo="Escenarios propicios")
+            .col-10.col-lg-11.mb-lg-0.mb-3
+              p Es así como se establecen los escenarios propicios para los desarrolladores que permiten identificar falencias y necesidades que se convierten en estrategias digitales.
             .col-2.col-lg-1
               figure
                 img(src="@/assets/template/tema-1-3.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11
-              p Es así como se establecen los escenarios propicios para los desarrolladores que permiten identificar falencias y necesidades que se convierten en estrategias digitales.
           .row(numero="3" titulo="Posibilidades infinitas")
+            .col-10.col-lg-11.mb-lg-0.mb-3
+              p Las estrategias digitales potencian el modelo de negocios, conexión con las personas, las empresas y los grupos de valor. 
             .col-2.col-lg-1
               figure
                 img(src="@/assets/template/tema-1-40.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11
-              p Las estrategias digitales potencian el modelo de negocios, conexión con las personas, las empresas y los grupos de valor. 
           .row(numero="4" titulo="Comunicación diversificada")
+            .col-10.col-lg-11.mb-lg-0.mb-3
+              p El desarrollo móvil se aplica de gran manera como canal de comunicación para el despliegue de contenido en la educación, las finanzas, las compras, el entretenimiento, entre otras áreas.
             .col-2.col-lg-1
               figure
                 img(src="@/assets/template/tema-1-4.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11
-              p El desarrollo móvil se aplica de gran manera como canal de comunicación para el despliegue de contenido en la educación, las finanzas, las compras, el entretenimiento, entre otras áreas.
+    Separador
 
     .titulo-segundo.mt-5
       #t_1_1.h2 1.1  Dispositivos móviles
     .row.mt-3
       .col-10.offset-1
-        .row.rounded-20.borde-gris
+        .row.rounded-20.borde-gris.align-items-center
           .col-8.offset-2.col-lg-4.d-lg-block.p-0.offset-lg-0
             figure
               img(src="@/assets/template/tema-1-5.png", alt="Texto que describa la imagen")
           .col-12.col-lg-8.px-5.py-4.align-self-center
             p Estos son pequeños aparatos electrónicos que permiten su fácil transporte y portabilidad, cuentan con capacidad de conexión permanente o intermitente a redes de datos.  
             .h5.mt-3.mb-0 Los dispositivos móviles, por lo general, tienen capacidad de procesamiento y almacenamiento; en su mayoría están diseñados con el fin de realizar una sola y específica tarea.
+    Separador
     .titulo-segundo.mt-5
       #t_1_2.h2 1.2 	Características de los dispositivos móviles
     .row.mt-3
@@ -62,45 +64,46 @@
       .col-10.offset-1
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Movilidad")
+            .col-10.col-lg-11.align-self-center.mb-lg-0.mb-3
+              p Es la cualidad de un dispositivo electrónico para ser transportado o trasladado con frecuencia y facilidad. Su tamaño reducido favorece la portabilidad y sus baterías permiten ser utilizados durante su transporte.
             .col-2.col-lg-1.px-3
               figure
                 img(src="@/assets/template/tema-1-7.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11.align-self-center
-              p Es la cualidad de un dispositivo electrónico para ser transportado o trasladado con frecuencia y facilidad. Su tamaño reducido favorece la portabilidad y sus baterías permiten ser utilizados durante su transporte.
           .row(numero="2" titulo="Reducido tamaño")
+            .col-10.col-lg-11.align-self-center.mb-lg-0.mb-3
+              p Esta característica permite que el dispositivo pueda ser transportado cómodamente por una persona. También posibilita ser usado con una o dos manos sin necesidad de ninguna ayuda o soporte externo. 
             .col-2.col-lg-1.px-3
               figure
                 img(src="@/assets/template/tema-1-8.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11.align-self-center
-              p Esta característica permite que el dispositivo pueda ser transportado cómodamente por una persona. También posibilita ser usado con una o dos manos sin necesidad de ninguna ayuda o soporte externo. 
           .row(numero="3" titulo="Conexión inalámbrica ")
+            .col-10.col-lg-11.align-self-center.mb-lg-0.mb-3
+              p Es la capacidad que tiene el dispositivo electrónico de enviar y recibir datos sin necesidad de una conexión fija cableada.
             .col-2.col-lg-1.px-3
               figure
                 img(src="@/assets/template/tema-1-9.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11.align-self-center
-              p Es la capacidad que tiene el dispositivo electrónico de enviar y recibir datos sin necesidad de una conexión fija cableada.
           .row(numero="4" titulo="Interacción con los usuarios")
+            .col-10.col-lg-11.align-self-center.mb-lg-0.mb-3
+              p Es el proceso por el cual se genera una actividad de uso, configuración y manipulación del usuario con el dispositivo móvil electrónico. 
             .col-2.col-lg-1.px-3
               figure
                 img(src="@/assets/template/tema-1-10.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11.align-self-center
-              p Es el proceso por el cual se genera una actividad de uso, configuración y manipulación del usuario con el dispositivo móvil electrónico. 
           .row(numero="5" titulo="Baterías")
+            .col-10.col-lg-11.align-self-center.mb-lg-0.mb-3
+              p Que permiten su funcionamiento independiente durante varias horas.
             .col-2.col-lg-1.px-3
               figure
                 img(src="@/assets/template/tema-1-11.svg", alt="Texto que describa la imagen")
-            .col-10.col-lg-11.align-self-center
-              p Que permiten su funcionamiento independiente durante varias horas.
+    Separador
     .titulo-segundo.mt-5
       #t_1_3.h2 1.3 Historia y evolución de los dispositivos móviles
     .row
       .col-10.col-lg-8.offset-1.offset-lg-2
         .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-8
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-8.mb-lg-0.mb-3
               .bloque-texto-a__texto.p-4
                 p Las cuatro décadas en las cuales se enmarca la aparición y evolución de los <i>smartphones</i> permiten ver cómo sus componentes se reducen y se potencializan; así, hay teléfonos cada día más pequeños y con mejor rendimiento, permiten sustituir los computadores de escritorio y portátiles que empiezan a ser desplazados por esta tecnología que está en una dinámica evolución y transformación.
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.col-8.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-1-12.svg", alt="Texto que describa la imagen")
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -157,10 +160,10 @@
               img(src="@/assets/template/tema-1-24.png", alt="Texto que describa la imagen")
     p.mt-5 En el siguiente recurso, se conocerán aspectos importantes de la historia y evolución de los dispositivos móviles y las transformaciones generales de diseño y funcionalidad que han sufrido con el tiempo.
     .row
-      .col-10.col-lg-8.offset-1.offset-lg-2
+      .col-12.col-lg-8.offset-1.offset-lg-2
         .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-4.mb-4.mb-lg-0.col-6
               figure
                 img(src="@/assets/template/tema-1-25.svg", alt="Texto que describa la imagen")    
             .col-lg-8
@@ -173,31 +176,32 @@
       table
         thead
           tr.bg-acento-botones
-            th.p-3 Año
+            th.p-3(style='width: 20%') Año
             th Inventor
             th Características
             th Descripción
         tbody
           tr
-            td.text-small.p-4 1902 - Primer dispositivo electrónico considerado como móvil.
+            td.p-4 1902 - Primer dispositivo electrónico considerado como móvil.
             td.p-4 Nathan B. Stubblefield 
-            td.text-small.p-4 Utilizaba varios receptores de 800 metros de alcance que instaló en una plaza en Kentucky.
-            td.text-small.p-4 Los receptores funcionaban a través de campos magnéticos. El teléfono principal tenía una antena y unas bobinas en forma de rueda. El sistema servía para comunicarse con un teléfono fijo y el emisor se podía mover de mover o desplazar
+            td.p-4 Utilizaba varios receptores de 800 metros de alcance que instaló en una plaza en Kentucky.
+            td.p-4 Los receptores funcionaban a través de campos magnéticos. El teléfono principal tenía una antena y unas bobinas en forma de rueda. El sistema servía para comunicarse con un teléfono fijo y el emisor se podía mover de mover o desplazar
           tr
-            td.text-small.p-4 1917 
+            td.p-4 1917 
             td.p-4 Eric Tigerstedt
-            td.text-small.p-4 Teléfono plegable de bolsillo con un micrófono de carbono muy delgado
-            td.text-small.p-4 Usado en comunicaciones analógicas de radio de barcos y trenes.
+            td.p-4 Teléfono plegable de bolsillo con un micrófono de carbono muy delgado
+            td.p-4 Usado en comunicaciones analógicas de radio de barcos y trenes.
           tr
-            td.text-small.p-4 Segunda Guerra mundial
+            td.p-4 Segunda Guerra mundial
             td.p-4 H12-16 (desarrollado por Motorola).
-            td.text-small.p-4 Dispositivos llamados Handie Talkie
-            td.text-small.p-4 Era un comunicador a distancia y fue muy utilizado por las tropas y el ejército. Funcionaba por medio de ondas de radio.
+            td.p-4 Dispositivos llamados Handie Talkie
+            td.p-4 Era un comunicador a distancia y fue muy utilizado por las tropas y el ejército. Funcionaba por medio de ondas de radio.
           tr
-            td.text-small.p-4 1973
+            td.p-4 1973
             td.p-4 Motorola DynaTAC 8000X 
-            td.text-small.p-4 Pesado teléfono de 4,4 libras (2 kg)
-            td.text-small.p-4 El primer teléfono móvil de mano disponible comercialmente. 
+            td.p-4 Pesado teléfono de 4,4 libras (2 kg)
+            td.p-4 El primer teléfono móvil de mano disponible comercialmente.
+    Separador 
     .titulo-segundo.mt-5
       #t_1_4.h2 1.4 	Características y <i>hardware</i> de los dispositivos móviles
     .row.mb-5
@@ -220,47 +224,48 @@
       .col-10.offset-1
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Teléfonos inteligentes o <i>smartphones</i>")
+            .col-12.col-lg-9.mb-lg-0.mb-3
+              p Son teléfonos móviles construidos con mayor capacidad de almacenamiento y de procesamiento. Han evolucionado hasta convertirse casi en un pequeño computador de bolsillo son utilizados para el trabajo, estudio, entreteniendo y muchas más actividades cotidianas.
             .col-lg-3.col-12.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-28.png", alt="Texto que describa la imagen").mmy-3
-            .col-12.col-lg-9
-              p Son teléfonos móviles construidos con mayor capacidad de almacenamiento y de procesamiento. Han evolucionado hasta convertirse casi en un pequeño computador de bolsillo son utilizados para el trabajo, estudio, entreteniendo y muchas más actividades cotidianas.
           .row(numero="2" titulo="<i>Tablets</i>")
+            .col-12.col-lg-9.mb-lg-0.mb-3
+              p Son computadores portátiles personales integrados en una pantalla táctil, con acceso a internet y capacidad para ejecutar aplicaciones instaladas sobre un sistema operativo; su manejo es fácil e intuitivo.
             .col-lg-3.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-30.png", alt="Texto que describa la imagen").mmy-3
-            .col-12.col-lg-9
-              p Son computadores portátiles personales integrados en una pantalla táctil, con acceso a internet y capacidad para ejecutar aplicaciones instaladas sobre un sistema operativo; su manejo es fácil e intuitivo.
           .row(numero="3" titulo="Relojes inteligentes")
+            .col-12.col-lg-9.mb-lg-0.mb-3
+              p Son relojes de pulsera que poseen funcionalidades como acceso a internet, recibir llamadas o enviar mensajes.
             .col-lg-3.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-31.png", alt="Texto que describa la imagen").mmy-3
-            .col-12.col-lg-9
-              p Son relojes de pulsera que poseen funcionalidades como acceso a internet, recibir llamadas o enviar mensajes.
           .row(numero="4" titulo="Escenarios propicios")
+            .col-12.col-lg-9.mb-lg-0.mb-3
+              p Son dispositivos destinados a almacenar y reproducir archivos digitales como audio o video.
             .col-lg-3.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-32.png", alt="Texto que describa la imagen").mmy-3
-            .col-12.col-lg-9
-              p Son dispositivos destinados a almacenar y reproducir archivos digitales como audio o video.
           .row(numero="5" titulo="Cámaras")
+            .col-12.col-lg-9.mb-lg-0.mb-3
+              p Se trata de dispositivos que posibilitan la captura congelada de imágenes reales. En la mayoría de los casos captan, también, audio y videos. Tienen, además, capacidad de conectarse a otros dispositivos, a internet, compartir y enviar datos, información y material almacenado.
             .col-lg-3.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-33.png", alt="Texto que describa la imagen").mmy-3
-            .col-12.col-lg-9
-              p Se trata de dispositivos que posibilitan la captura congelada de imágenes reales. En la mayoría de los casos captan, también, audio y videos. Tienen, además, capacidad de conectarse a otros dispositivos, a internet, compartir y enviar datos, información y material almacenado.
           .row(numero="6" titulo="GPS")
+            .col-12.col-lg-9.mb-lg-0.mb-3
+              p Son dispositivos que permiten a los usuarios determinar la posición de forma precisa de un vehículo o una persona que use el dispositivo.
             .col-lg-3.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-34.png", alt="Texto que describa la imagen").mmy-3
-            .col-12.col-lg-9
-              p Son dispositivos que permiten a los usuarios determinar la posición de forma precisa de un vehículo o una persona que use el dispositivo.
           .row(numero="7" titulo="Computadores portátiles")
+            .col-12.col-lg-9.mb-lg-0.mb-3
+              p Son computadores completos que, debido a su tamaño reducido y compacto, permiten su transporte y su uso sin necesidad de tener una conexión eléctrica continua.
             .col-lg-3.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-35.png", alt="Texto que describa la imagen").mmy-3
-            .col-12.col-lg-9
-              p Son computadores completos que, debido a su tamaño reducido y compacto, permiten su transporte y su uso sin necesidad de tener una conexión eléctrica continua.
+    Separador
     .titulo-segundo.mt-5
       #t_1_5.h2 1.5 	Teléfonos inteligentes o <i>smartphones</i>
     figure.mt-4
@@ -271,10 +276,10 @@
         .cajon.color-acento-botones.p-4.mb-4.bg-amarillo-claro
           .row
             .col-2.d-none.d-lg-block.align-self-center
-             figure 
-              img(src="@/assets/template/tema-1-37.svg", alt="Texto que describa la imagen")
+              figure 
+                img(src="@/assets/template/tema-1-37.svg", alt="Texto que describa la imagen")
             .col-12.col-lg-10
-              p.text-small En el año 2007 con la presentación del primer iPhone se inicia la gran transformación de los dispositivos móviles. Ya no era necesario conectar el celular a un equipo portátil para realizar la instalación de alguna aplicación o actualización de su sistema operativo (SO). Este fue el punto de partida para la implementación del comercio de aplicaciones por medio de la tienda App Store; también se implantó la tecnología multitáctil facilitando el uso de los dispositivos e incrementando las actividades que con este se podría realizar, las demás compañías realizaron lo propio y empezaron a imitar estas mejoras. 
+              p.mb-0 En el año 2007 con la presentación del primer iPhone se inicia la gran transformación de los dispositivos móviles. Ya no era necesario conectar el celular a un equipo portátil para realizar la instalación de alguna aplicación o actualización de su sistema operativo (SO). Este fue el punto de partida para la implementación del comercio de aplicaciones por medio de la tienda App Store; también se implantó la tecnología multitáctil facilitando el uso de los dispositivos e incrementando las actividades que con este se podría realizar, las demás compañías realizaron lo propio y empezaron a imitar estas mejoras. 
     .h4.mt-5 Actividades que se pueden realizar con los teléfonos inteligentes o <i>smartphones</i>
     figure.mt-4
       img(src="@/assets/template/tema-1-38.png", alt="Texto que describa la imagen")
@@ -343,6 +348,7 @@
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/WJP4hik73I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Funcionamiento de un teléfono inteligente
       
 </template>
 

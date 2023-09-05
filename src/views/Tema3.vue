@@ -18,10 +18,12 @@
               img(src="@/assets/template/tema-3-2.svg", alt="Texto que describa la imagen")
             .col-12.col-lg-8
               p.text-small Estos SO están diseñados y enfocados en la realización de la integración de los componentes físicos, el <i>hardware</i>, y mejorar el rendimiento de sus componentes más relevantes como, por ejemplo, la batería. 
+    Separador
     .titulo-segundo.mt-5
       #t_3_1.h2 3.1 	Historia de los sistemas operativos
     p.mt-5 Con el desarrollo y la evolución de los dispositivos móviles se generó una gran necesidad por los sistemas operativos para dispositivos móviles.
     SlyderB.mt-5(:datos="datosSlyder")
+    Separador
     
     .titulo-segundo.mt-5
       #t_3_2.h2 3.2 	Principales sistemas operativos y sus características
@@ -98,6 +100,7 @@
                   a.boton.bg-azul(:href="obtenerLink('/downloads/Principales_Sistemas_Operativos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
+    Separador
     .titulo-segundo.mt-5
       #t_3_3.h2 3.3 Componentes del Sistema operativo móvil 
     .row.mt-4
