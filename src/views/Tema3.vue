@@ -6,11 +6,11 @@
       .titulo-principal__numero
         span 3
       h1 Sistemas operativos móviles
-    figure
+    figure(data-aos="zoom-in")
       img(src="@/assets/template/tema-3-1.png", alt="Texto que describa la imagen")
-    p.mt-5 Los dispositivos móviles trabajan con sistemas operativos muy similares a los utilizados por los computadores.
+    p.mt-5(data-aos="fade-right") Los dispositivos móviles trabajan con sistemas operativos muy similares a los utilizados por los computadores.
     .row.mt-4.justify-content-center
-      .col-12.col-lg-10
+      .col-12.col-lg-10(data-aos="zoom-in")
         .cajon.color-acento-botones.p-4.mb-4.bg-amarillo-claro
           .row.align-items-center
             .col-4.d-none.d-lg-block.align-self-center
@@ -19,18 +19,18 @@
             .col-12.col-lg-8
               p Estos SO están diseñados y enfocados en la realización de la integración de los componentes físicos, el <i>hardware</i>, y mejorar el rendimiento de sus componentes más relevantes como, por ejemplo, la batería. 
     Separador
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_3_1.h2 3.1 	Historia de los sistemas operativos
     p.mt-5 Con el desarrollo y la evolución de los dispositivos móviles se generó una gran necesidad por los sistemas operativos para dispositivos móviles.
-    SlyderB.mt-5(:datos="datosSlyder")
+    SlyderB.mt-5(:datos="datosSlyder")(data-aos="zoom-in")
     Separador
     
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_3_2.h2 3.2 	Principales sistemas operativos y sus características
-    figure
+    figure(data-aos="zoom-in")
       img(src="@/assets/template/tema-3-9.png" , alt="Texto que describa la imagen")
-    p.mt-4 La evolución y transformación de los principales sistemas operativos acompañan el proceso de crecimiento de los dispositivos móviles. Estos, a su vez y de manera paralela, deben realizar su adaptación a la misma regularidad con que lo hace el <i>hardware</i>, buscando adecuarse y ofrecer mejor rendimiento, mayor seguridad y efectividad a la hora de la implementación. Algunos sistemas operativos no lograron seguir los cambios frenéticos que exige esta carrera tecnológica y desaparecieron; otros, con gran esfuerzo, son los líderes del mercado, pero su trabajo de transformación es constante para mantenerse vigente.
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-azul-claro").mt-5
+    p.mt-4(data-aos="fade-right") La evolución y transformación de los principales sistemas operativos acompañan el proceso de crecimiento de los dispositivos móviles. Estos, a su vez y de manera paralela, deben realizar su adaptación a la misma regularidad con que lo hace el <i>hardware</i>, buscando adecuarse y ofrecer mejor rendimiento, mayor seguridad y efectividad a la hora de la implementación. Algunos sistemas operativos no lograron seguir los cambios frenéticos que exige esta carrera tecnológica y desaparecieron; otros, con gran esfuerzo, son los líderes del mercado, pero su trabajo de transformación es constante para mantenerse vigente.
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-azul-claro").mt-5(data-aos="zoom-in")
       .row(titulo="Symbian")
         .col-12.col-lg-9
           p Fue producto de la alianza de Nokia, Sony Ericsson, Samsung, Siemens, BenQ, Fujitsu, Lenovo, LG, Motorola, esta alianza le permitió en un momento dado ser unos de los pioneros y más usados sistemas operativos. Symbian es una colección compacta de código ejecutable y varios archivos, la mayoría de ellos son archivos DLL (bibliotecas vinculadas dinámicamente) y otros datos requeridos, incluyendo archivos de configuración, de imágenes y de tipografía, entre otros recursos. Symbian se almacenaba, en un circuito flash dentro del dispositivo móvil, este tipo de tecnología permitía conservar la información, aunque el sistema no tuviese carga eléctrica, y permitía la reprogramación, sin necesidad de separarla de los demás circuitos. Las aplicaciones para Symbian se desarrollaron a partir de lenguajes de programación orientados a objetos como C + +, Java (con sus variantes como PJava, J2ME, etc.), Visual <i>basic</i> para dispositivos móviles.
@@ -62,7 +62,7 @@
       div(titulo="Windows Phone")
         .row
           .col-12.col-lg-9
-            p Desarrollado por Microsoft, y conocido antes como Windows Mobile, es un SO que se basa en el núcleo del sistema operativo Microsoft Windows CE .NET que es un sistema operativo de 32 bits, abierto y escalable, diseñado para cubrir las necesidades de un amplio rango de dispositivos inteligentes, que van desde las herramientas empresariales, como los controladores industriales y dispositivos de comunicaciones, hasta productos destinados al usuario final como cámaras de video o televisores interactivos; cuenta con un conjunto de aplicaciones básicas y está diseñado para ser similar a las versiones de escritorio de Windows estéticamente y existe una gran oferta de software de terceros disponible para Windows Mobile, la cual se podía adquirir en Windows Marketplace for Mobile que era un servicio de Microsoft que permitía a los usuarios navegar y descargar aplicaciones que habían sido desarrolladas por terceros.
+            p Desarrollado por Microsoft, y conocido antes como Windows Mobile, es un SO que se basa en el núcleo del sistema operativo Microsoft Windows CE .NET que es un sistema operativo de 32 bits, abierto y escalable, diseñado para cubrir las necesidades de un amplio rango de dispositivos inteligentes, que van desde las herramientas empresariales, como los controladores industriales y dispositivos de comunicaciones, hasta productos destinados al usuario final como cámaras de video o televisores interactivos; cuenta con un conjunto de aplicaciones básicas y está diseñado para ser similar a las versiones de escritorio de Windows estéticamente y existe una gran oferta de software de terceros disponible para Windows Mobile, la cual se podía adquirir en Windows Mar5tplace for Mobile que era un servicio de Microsoft que permitía a los usuarios navegar y descargar aplicaciones que habían sido desarrolladas por terceros.
           .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
             figure
               img(src="@/assets/template/tema-3-14.png", alt="Texto que describa la imagen")
@@ -98,47 +98,47 @@
                     span Descargar 
                     i.fas.fa-file-download
     Separador
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_3_3.h2 3.3 Componentes del Sistema operativo móvil 
-    .row.mt-4
-      .col-12
+    .row.mt-4.justify-content-center
+      .col-lg-8(data-aos="fade-right").mb-lg-0.mb-3
         p Se conoce que los SO móviles cuentan con capas específicas, lo cual no define o determina qué otro tipo de sistemas operativos funcionen de la misma manera; ello está más determinado por su modo de funcionamiento. El núcleo del sistema operativo se encarga de administrar aquellos elementos de <i>hardware</i> del teléfono móvil. La capa del <i>middleware</i>, conocida también como intermediador de aplicaciones del SO, son diferentes programas o módulos que permiten el uso de aplicaciones, librerías, entre otras. Para que un <i>smartphone</i> funcione correctamente, la capa de administración de aplicaciones se encarga de ejecutar, detener y finalizar las aplicaciones del SO y, finalmente, es la interfaz la que administra el uso que la persona hace de su teléfono móvil, bien sea un teléfono con servicio de pantalla sensible al tacto <i>(touch)</i> o con servicio de teclado <i>QWERTY</i>.
-      .col-12.offset-lg-0.align-self-center
-        figure
+      .col-lg-4.col-8.offset-lg-0.align-self-center
+        figure(data-aos="fade-left")
           img(src="@/assets/template/tema-3-18.png", alt="Texto que describa la imagen")
     .row.mt-4
-      .col-10.offset-1
+      .col-10.offset-1(data-aos="zoom-in")
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Núcleo o <i>kernel</i>").justify-content-center
-            .col-1.col-lg-2.align-self-center
-              figure
-                img(src="@/assets/template/tema-3-19.svg", alt="Texto que describa la imagen").m-0-auto.w-75
             .col-10.col-lg-10.mb-lg-0.mb-3
               p Se trata de una parte del sistema operativo que concede varios servicios de conexión a las capas superiores como, por ejemplo, los drives o controladores para el <i>hardware</i>, para la gestión de procesos, para el ingreso a la información de la memoria y gestión de la misma. Este núcleo, permite el acceso a diferentes elementos del <i>hardware</i> del dispositivo.
-          .row(numero="2" titulo="<i>Middleware</i>").justify-content-center
-            .col-1.col-lg-2.align-self-center
+            .col-5.col-lg-2.align-self-center
               figure
-                img(src="@/assets/template/tema-3-20.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+                img(src="@/assets/template/tema-3-19.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+          .row(numero="2" titulo="<i>Middleware</i>").justify-content-center
             .col-10.col-lg-10.mb-lg-0.mb-3
               p Es el conjunto de módulos que hacen posible la existencia de aplicaciones para móviles. Es totalmente transparente para el usuario y ofrece servicios clave como el motor de mensajería y comunicaciones, <i>códecs</i> multimedia, intérpretes de páginas web, gestión del dispositivo y seguridad.
-          .row(numero="3" titulo="Entorno de ejecución de aplicaciones").justify-content-center
-            .col-1.col-lg-2.align-self-center
+            .col-5.col-lg-2.align-self-center
               figure
-                img(src="@/assets/template/tema-3-21.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+                img(src="@/assets/template/tema-3-20.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+          .row(numero="3" titulo="Entorno de ejecución de aplicaciones").justify-content-center
             .col-10.col-lg-10.mb-lg-0.mb-3
               p Este entorno consiste en un gestor de aplicaciones y un conjunto de interfaces programables y programables abiertas, por parte de los desarrolladores para facilitar la creación de <i>software</i>.
-          .row(numero="4" titulo="Interfaz de usuario").justify-content-center
-            .col-1.col-lg-2.align-self-center
+            .col-5.col-lg-2.align-self-center
               figure
-                img(src="@/assets/template/tema-3-22.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+                img(src="@/assets/template/tema-3-21.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+          .row(numero="4" titulo="Interfaz de usuario").justify-content-center
             .col-10.col-lg-10.mb-lg-0.mb-3
               p Las interfaces de usuario facilitan la interacción con el usuario y el diseño de la presentación visual de la aplicación. Los servicios que incluye son los de componentes gráficos (botones, pantallas, listas, etc.).
-          .row(numero="5" titulo="Marco de interacción").justify-content-center
-            .col-1.col-lg-2.align-self-center
+            .col-5.col-lg-2.align-self-center
               figure
-                img(src="@/assets/template/tema-3-23.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+                img(src="@/assets/template/tema-3-22.svg", alt="Texto que describa la imagen").m-0-auto.w-75
+          .row(numero="5" titulo="Marco de interacción").justify-content-center
             .col-10.col-lg-10.mb-lg-0.mb-3
               p Aparte de estas capas, también existe una familia de aplicaciones nativas del teléfono que suelen incluir los menús o el marcador de números de teléfono.
+            .col-5.col-lg-2.align-self-center
+              figure
+                img(src="@/assets/template/tema-3-23.svg", alt="Texto que describa la imagen").m-0-auto.w-75
 </template>
 
 <script>

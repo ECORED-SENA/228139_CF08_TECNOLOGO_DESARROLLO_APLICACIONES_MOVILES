@@ -6,10 +6,10 @@
       .titulo-principal__numero
         span 1
       h1 Introducción al desarrollo de aplicaciones móviles
-    figure.mt-3
+    figure.mt-3(data-aos="zoom-in")
       img(src="@/assets/template/tema-1-1.png", alt="Texto que describa la imagen")
-    p.mt-4 Los dispositivos móviles, y en especial los <i>smartphones</i>, se han convertido en elementos fundamentales de uso personal y empresarial, por esta razón, el desarrollo y uso de las aplicaciones móviles ocupa un importante lugar en el mercado mundial, pues estas herramientas de comunicación son rápidas y eficientes permitiendo el desarrollo de actividades complejas. 
-    .row.mt-4
+    p.mt-4(data-aos="fade-right") Los dispositivos móviles, y en especial los <i>smartphones</i>, se han convertido en elementos fundamentales de uso personal y empresarial, por esta razón, el desarrollo y uso de las aplicaciones móviles ocupa un importante lugar en el mercado mundial, pues estas herramientas de comunicación son rápidas y eficientes permitiendo el desarrollo de actividades complejas. 
+    .row.mt-4(data-aos="zoom-in")
       .col-10.offset-1
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Fácil acceso")
@@ -38,30 +38,30 @@
                 img(src="@/assets/template/tema-1-4.svg", alt="Texto que describa la imagen")
     Separador
 
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_1_1.h2 1.1  Dispositivos móviles
     .row.mt-3
       .col-10.offset-1
         .row.rounded-20.borde-gris.align-items-center
-          .col-8.offset-2.col-lg-4.d-lg-block.p-0.offset-lg-0
+          .col-8.offset-2.col-lg-4.d-lg-block.p-0.offset-lg-0(data-aos="fade-right")
             figure
               img(src="@/assets/template/tema-1-5.png", alt="Texto que describa la imagen")
-          .col-12.col-lg-8.px-5.py-4.align-self-center
+          .col-12.col-lg-8.px-5.py-4.align-self-center(data-aos="fade-left")
             p Estos son pequeños aparatos electrónicos que permiten su fácil transporte y portabilidad, cuentan con capacidad de conexión permanente o intermitente a redes de datos.  
             .h5.mt-3.mb-0 Los dispositivos móviles, por lo general, tienen capacidad de procesamiento y almacenamiento; en su mayoría están diseñados con el fin de realizar una sola y específica tarea.
     Separador
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_1_2.h2 1.2 	Características de los dispositivos móviles
     .row.mt-3
       .col-10.offset-1
         .row.rounded-20.borde-gris
-          .col-8.offset-2.d-lg-block.p-0.offset-lg-0.col-lg-4
+          .col-8.offset-2.d-lg-block.p-0.offset-lg-0.col-lg-4(data-aos="fade-right")
             figure
               img(src="@/assets/template/tema-1-6.png", alt="Texto que describa la imagen")
-          .col-12.col-lg-8.px-5.py-4.align-self-center
+          .col-12.col-lg-8.px-5.py-4.align-self-center(data-aos="fade-left")
             p Se enuncian a continuación algunas de las características principales que permiten identificar y definir un dispositivo móvil. Los <i>smartphones</i> no son los únicos que se encuentran en esta categoría; en el entorno cotidiano es posible identificar muchos otros elementos que cumplen con estas características.
     .row.mt-5
-      .col-10.offset-1
+      .col-10.offset-1(data-aos="zoom-in")
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Movilidad")
             .col-10.col-lg-11.align-self-center.mb-lg-0.mb-3
@@ -94,7 +94,7 @@
               figure
                 img(src="@/assets/template/tema-1-11.svg", alt="Texto que describa la imagen")
     Separador
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_1_3.h2 1.3 Historia y evolución de los dispositivos móviles
     .row
       .col-10.col-lg-8.offset-1.offset-lg-2
@@ -109,58 +109,11 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1
       span Dispositivos móviles historia y evolución
-    LineaTiempoC.color-primario.mt-5
-        .row(titulo="1982")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-13.png", alt="Texto que describa la imagen")
-        .row(titulo="1984")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-14.png", alt="Texto que describa la imagen")
-        .row(titulo="1987")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-15.png", alt="Texto que describa la imagen")
-        .row(titulo="1989")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-16.png", alt="Texto que describa la imagen")
-        .row(titulo="1992")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen")
-        .row(titulo="1993")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-18.png", alt="Texto que describa la imagen")
-        .row(titulo="2000")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-19.png", alt="Texto que describa la imagen")
-        .row(titulo="2002")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-20.png", alt="Texto que describa la imagen")
-        .row(titulo="2004")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-21.png", alt="Texto que describa la imagen")
-        .row(titulo="2007")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-22.png", alt="Texto que describa la imagen")
-        .row(titulo="2015")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-23.png", alt="Texto que describa la imagen")
-        .row(titulo="2021")
-          .col-10.col-lg-2.offset-1.offset-lg-5
-            figure
-              img(src="@/assets/template/tema-1-24.png", alt="Texto que describa la imagen")
-    p.mt-5 En el siguiente recurso, se conocerán aspectos importantes de la historia y evolución de los dispositivos móviles y las transformaciones generales de diseño y funcionalidad que han sufrido con el tiempo.
+    img(src='@/assets/curso/temas/c1.png', alt='a figura ilustra la historia de los dispositivos móviles y su evolución desde 1982 hasta 2021').d-lg-block.d-none
+    img(src='@/assets/curso/temas/c1r.png', alt='a figura ilustra la historia de los dispositivos móviles y su evolución desde 1982 hasta 2021').d-lg-none.d-block
+    p.mt-5(data-aos="fade-right") En el siguiente recurso, se conocerán aspectos importantes de la historia y evolución de los dispositivos móviles y las transformaciones generales de diseño y funcionalidad que han sufrido con el tiempo.
     .row
-      .col-12.col-lg-8.offset-1.offset-lg-2
+      .col-12.col-lg-8.offset-1.offset-lg-2(data-aos="fade-right")
         .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-center
             .col-lg-4.mb-4.mb-lg-0.col-6
@@ -172,7 +125,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1
       span Primeros Dispositivos Móviles
-    .tabla-a.color-acento-botones.mt-5 
+    .tabla-a.color-acento-botones.mt-5(data-aos="zoom-in")
       table
         thead
           tr.bg-acento-botones
@@ -202,27 +155,27 @@
             td.p-4 Pesado teléfono de 4,4 libras (2 kg)
             td.p-4 El primer teléfono móvil de mano disponible comercialmente.
     Separador 
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_1_4.h2 1.4 	Características y <i>hardware</i> de los dispositivos móviles
     .row.mb-5
       .col-10.offset-1
         .row.borde-gris.rounded-10
-          .col-8.offset-2.d-lg-block.px-4.align-self-center.text-center.offset-lg-0.col-lg-2
+          .col-8.offset-2.d-lg-block.px-4.align-self-center.text-center.offset-lg-0.col-lg-2(data-aos="fade-right")
             figure
               img(src="@/assets/template/tema-1-26.svg", alt="")
-          .col-12.col-lg-10.p-4.align-self-center
+          .col-12.col-lg-10.p-4.align-self-center(data-aos="fade-left")
             p El primer <i>smartphone</i> de la historia fue el IBM Simon. Fabricado en 1992 y distribuido por EE. UU. entre agosto de 1994 y febrero de 1995, tenía un precio de 899 dólares, con una interfaz de usuario ausente de botones físicos y basada totalmente en una pantalla táctil de tipo LCD monocromo. Este dispositivo disponía de texto predictivo, agenda, funciones de SMS, correo electrónico, buscador #[em (beeper),] fax y un módem para conexión a internet; estas funciones eran más comunes de una PDA que de un móvil de la época. Mostraba un teclado QWERTY en pantalla desde el cual se podía introducir el texto estándar o predictivo.
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="zoom-in")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2
           span Imagen del IBM Simon
         figure
           img(src="@/assets/template/tema-1-27.png", alt="La figura representa un teléfono IBM Simon" style="width: 300px")
-    p.mt-5 Los teléfonos móviles no son los únicos aparatos electrónicos que se consideran como dispositivos móviles, estos son algunos de los dispositivos más comunes: 
+    p.mt-5(data-aos="zoom-in") Los teléfonos móviles no son los únicos aparatos electrónicos que se consideran como dispositivos móviles, estos son algunos de los dispositivos más comunes: 
     .row.mt-4
       .col-10.offset-1
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-primario(data-aos="fade-right")
           .row(numero="1" titulo="Teléfonos inteligentes o <i>smartphones</i>")
             .col-12.col-lg-9.mb-lg-0.mb-3
               p Son teléfonos móviles construidos con mayor capacidad de almacenamiento y de procesamiento. Han evolucionado hasta convertirse casi en un pequeño computador de bolsillo son utilizados para el trabajo, estudio, entreteniendo y muchas más actividades cotidianas.
@@ -266,13 +219,13 @@
               figure
                 img(src="@/assets/template/tema-1-35.png", alt="Texto que describa la imagen").mmy-3
     Separador
-    .titulo-segundo.mt-5
+    .titulo-segundo.mt-5(data-aos="fade-right")
       #t_1_5.h2 1.5 	Teléfonos inteligentes o <i>smartphones</i>
-    figure.mt-4
+    figure.mt-4(data-aos="zoom-in")
       img(src="@/assets/template/tema-1-36.png", alt="Texto que describa la imagen")
-    p.mt-4 En este apartado se expondrá sobre los teléfonos inteligentes o <i>smartphones</i> para profundizar en sus características y componentes, ya que el enfoque de desarrollo de aplicaciones se centra sobre estos elementos electrónicos.
+    p.mt-4(data-aos="fade-right") En este apartado se expondrá sobre los teléfonos inteligentes o <i>smartphones</i> para profundizar en sus características y componentes, ya que el enfoque de desarrollo de aplicaciones se centra sobre estos elementos electrónicos.
     .row.mt-4
-      .col-10.offset-1
+      .col-10.offset-1(data-aos="zoom-in")
         .cajon.color-acento-botones.p-4.mb-4.bg-amarillo-claro
           .row
             .col-2.d-none.d-lg-block.align-self-center
@@ -281,7 +234,7 @@
             .col-12.col-lg-10
               p.mb-0 En el año 2007 con la presentación del primer iPhone se inicia la gran transformación de los dispositivos móviles. Ya no era necesario conectar el celular a un equipo portátil para realizar la instalación de alguna aplicación o actualización de su sistema operativo (SO). Este fue el punto de partida para la implementación del comercio de aplicaciones por medio de la tienda App Store; también se implantó la tecnología multitáctil facilitando el uso de los dispositivos e incrementando las actividades que con este se podría realizar, las demás compañías realizaron lo propio y empezaron a imitar estas mejoras. 
     .h4.mt-5 Actividades que se pueden realizar con los teléfonos inteligentes o <i>smartphones</i>
-    figure.mt-4
+    figure.mt-4(data-aos="zoom-in")
       img(src="@/assets/template/tema-1-38.png", alt="Texto que describa la imagen")
     p.mt-5 Está ya dicho que son múltiples las acciones y actividades que se pueden llevar a cabo con los teléfonos inteligentes o ayudados por ellos, pero aquí se le presentan las más comunes:
     .col-sm.mb-5.mb-sm-0
@@ -335,7 +288,7 @@
           i.fas.fa-brain
           p.mb-0 Visualización de imágenes y Videos 3D.          
     .row.mt-5
-      .col-12.col-lg-8.offset-1.offset-lg-2
+      .col-12.col-lg-8.offset-1.offset-lg-2(data-aos="zoom-in")
         .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-center
             .col-lg-9
@@ -345,7 +298,7 @@
             .col-lg-3.mb-4.mb-lg-0.col-6
               figure
                 img(src="@/assets/template/tema-1-39.svg", alt="Texto que describa la imagen")
-    figure.mt-5
+    figure.mt-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/WJP4hik73I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Funcionamiento de un teléfono inteligente

@@ -7,9 +7,9 @@
         span 2
       h1 Redes de conexión celular
     .row.mt-4
-      .col-12.col-lg-9.align-self-center
+      .col-12.col-lg-9.align-self-center(data-aos="fade-right")
         p La primera red celular fue implementada en el año 1977 en la ciudad de Chicago; para el año 1978 esta red inició su funcionamiento y ya contaba aproximadamente con 1.300 usuarios conectados. Seguidamente en el año 1979 se inició en Japón la primera red 1G nacional que fue lanzada por NTT (Nippon Telegraph and Telephone Corporation). Estos fueron los primeros pasos que se dieron para iniciar la transformación digital móvil. Desde ese momento los dispositivos móviles de comunicación o teléfonos móviles se convirtieron en la mayor demanda mundial de tecnología y lo siguen siendo en este momento, gracias a su evolución, transformación y uso en general.
-      .col-12.col-lg-3.offset-lg-0
+      .col-12.col-lg-3.offset-lg-0(data-aos="fade-left")
         figure
           img(src="@/assets/template/tema-2-1.svg", alt="Texto que describa la imagen")
     .row.mt-5
@@ -17,9 +17,9 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 3
           span Sistemas operativos móviles
-        figure.mb-lg-0.mb-3
+        figure.mb-lg-0.mb-3(data-aos="zoom-in")
           img(src="@/assets/template/tema-2-2.png", alt="La figura representa los diversos sistemas operativos que han caracterizado a los dispositivos móviles, tales como Symbian, Windows Mobile, Android, Apple, BlackBerry, y otros más, como Palm OS, entre otros.")
-    AcordionA.my-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+    AcordionA.my-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in")
       .row(titulo="G1")
         .col-4.col-lg-2.offset-4.offset-lg-0
           figure.mb-lg-0.mb-3

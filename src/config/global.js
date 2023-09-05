@@ -31,37 +31,32 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+
         numero: '1',
         titulo: 'Introducción al desarrollo de aplicaciones móviles',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Dispositivos móviles',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Características de los dispositivos móviles',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Historia y evolución de los dispositivos móviles',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Características y hardware de los dispositivos móviles',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Teléfonos inteligentes o smartphones ',
             hash: 't_1_5',
@@ -70,7 +65,7 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+
         numero: '2',
         titulo: 'Redes de conexión celular ',
         desarrolloContenidos: true,
@@ -78,25 +73,22 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Sistemas operativos móviles',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Historia de los sistemas operativos',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Principales sistemas operativos y sus características ',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.3',
             titulo: 'Componentes del sistema operativo móvil',
             hash: 't_3_3',
@@ -151,7 +143,7 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: '1.5 Teléfonos inteligentes o smartphones',
       referencia:
         'Computerhoy. (2015). Autopsia de un iPhone 6S: Todas sus piezas y componentes. <i>Computerhoy</i>',
       tipo: 'Noticia',
@@ -159,7 +151,7 @@ export default {
         'https://computerhoy.com/noticias/moviles/autopsia-iphone-6s-todas-sus-piezas-componentes-34955',
     },
     {
-      tema: ' ',
+      tema: '1.5 Teléfonos inteligentes o smartphones',
       referencia:
         'Nobbot (2016). Tecnología forense: te destripamos un smartphone. <i>Nobbot.</i>',
       tipo: 'Artículo',
@@ -243,17 +235,17 @@ export default {
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñador Instruccional',
           centro: 'Centro agropecuario La Granja Regional Tolima ',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda ',
-          cargo: 'Evaluador instruccional',
+          cargo: 'Evaluador Instruccional',
           centro: 'Centro de Gestión Industrial Regional Distrito Capital',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
+          cargo: 'Corrector de Estilo',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
@@ -276,37 +268,37 @@ export default {
         },
         {
           nombre: 'Zuleidy Maria Ruiz Torres',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
           nombre: 'María Carolina Tamayo López',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
           nombre: 'Ángela María Maldonado Jaime',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
@@ -335,7 +327,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
