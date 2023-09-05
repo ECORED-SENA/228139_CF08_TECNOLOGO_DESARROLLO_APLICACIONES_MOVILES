@@ -335,14 +335,14 @@
           i.fas.fa-brain
           p.mb-0 Visualización de imágenes y Videos 3D.          
     .row.mt-5
-      .col-10.col-lg-8.offset-1.offset-lg-2
+      .col-12.col-lg-8.offset-1.offset-lg-2
         .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
-          .row.m-0.align-items-center.justify-content-between
+          .row.m-0.align-items-center.justify-content-center
             .col-lg-9
               .bloque-texto-a__texto.p-4
                 .h4 Funcionamiento de un teléfono inteligente o <i>smartphone</i>
                 p.mt3 Los dispositivos móviles están compuestos por partes, gracias a las cuales, es posible su funcionamiento básico. Conozca esas partes que integran a los dispositivos móviles e identifique, en el recurso que se le presenta a continuación, los aspectos más importantes de ello.
-            .col-lg-3.mb-4.mb-lg-0
+            .col-lg-3.mb-4.mb-lg-0.col-6
               figure
                 img(src="@/assets/template/tema-1-39.svg", alt="Texto que describa la imagen")
     figure.mt-5
