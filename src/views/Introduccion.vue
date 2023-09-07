@@ -15,6 +15,10 @@
       .col-6.col-lg-4.offset-3.offset-lg-0.align-self-center
         figure.mb-5
           img(src="@/assets/template/tema-0-1.png", alt="Texto que describa la imagen")
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ppEwuIR2Xc0?si=sIEpewkPsWjb_Fo2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Introducción al desarrollo de aplicaciones móviles
     
 </template>
 
