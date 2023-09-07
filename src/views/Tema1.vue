@@ -52,9 +52,9 @@
     Separador
     .titulo-segundo.mt-5(data-aos="fade-right")
       #t_1_2.h2 1.2 	Características de los dispositivos móviles
-    .row.mt-3
+    .row.mt-3.align-items-center
       .col-10.offset-1
-        .row.rounded-20.borde-gris
+        .row.rounded-20.borde-gris.align-items-center
           .col-8.offset-2.d-lg-block.p-0.offset-lg-0.col-lg-4(data-aos="fade-right")
             figure
               img(src="@/assets/template/tema-1-6.png", alt="Texto que describa la imagen")
@@ -109,8 +109,8 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1
       span Dispositivos móviles historia y evolución
-    img(src='@/assets/curso/temas/c1.png', alt='a figura ilustra la historia de los dispositivos móviles y su evolución desde 1982 hasta 2021').d-lg-block.d-none
-    img(src='@/assets/curso/temas/c1r.png', alt='a figura ilustra la historia de los dispositivos móviles y su evolución desde 1982 hasta 2021').d-lg-none.d-block
+    img(src='@/assets/curso/temas/c1.png', alt='La figura ilustra la historia de los dispositivos móviles y su evolución desde 1982 hasta 2021').d-lg-block.d-none
+    img(src='@/assets/curso/temas/c1r.png', alt='La figura ilustra la historia de los dispositivos móviles y su evolución desde 1982 hasta 2021').d-lg-none.d-block
     p.mt-5(data-aos="fade-right") En el siguiente recurso, se conocerán aspectos importantes de la historia y evolución de los dispositivos móviles y las transformaciones generales de diseño y funcionalidad que han sufrido con el tiempo.
     .row
       .col-12.col-lg-8.offset-1.offset-lg-2(data-aos="fade-right")

@@ -14,8 +14,8 @@
         .cajon.color-acento-botones.p-4.mb-4.bg-amarillo-claro
           .row.align-items-center
             .col-4.d-none.d-lg-block.align-self-center
-             figure 
-              img(src="@/assets/template/tema-3-2.svg", alt="Texto que describa la imagen")
+              figure 
+                img(src="@/assets/template/tema-3-2.svg", alt="Texto que describa la imagen" style="width: 250px").m-auto
             .col-12.col-lg-8
               p Estos SO están diseñados y enfocados en la realización de la integración de los componentes físicos, el <i>hardware</i>, y mejorar el rendimiento de sus componentes más relevantes como, por ejemplo, la batería. 
     Separador
@@ -83,20 +83,19 @@
               img(src="@/assets/template/tema-3-16.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-10.offset-1
-        
-        .tarjeta.bg-amarillo-degradado.p-3.mb-5
-          .row.justify-content-center.align-items-center
-            .col-3.col-sm-2.col-lg-2
+        .tarjeta.bg-amarillo-degradado.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
               img(src="@/assets/template/tema-3-17.svg")
-            .col-10
+            .col
               .row.justify-content-between.align-items-center
-                .col-8.mb-3.mb-sm-0
-                  h3.mb-1 Principales sistemas operativos y características
-                  p Le invitamos a conocer en detalle algunos sistemas operativos mencionados con anterioridad y que han impactado significativamente el mercado tecnológico.
                 .col.mb-3.mb-sm-0
+                  h4.mb-1 Principales sistemas operativos y características
+                  p.mb-0.text-small Le invitamos a conocer en detalle algunos sistemas operativos mencionados con anterioridad y que han impactado significativamente el mercado tecnológico.
+                .col-sm-auto
                   a.boton.color-primario(:href="obtenerLink('/downloads/Principales_Sistemas_Operativos.pdf')" target="_blank")
-                    span Descargar 
-                    i.fas.fa-file-download
+                      span Descargar 
+                      i.fas.fa-file-download
     Separador
     .titulo-segundo.mt-5(data-aos="fade-right")
       #t_3_3.h2 3.3 Componentes del Sistema operativo móvil 
