@@ -127,7 +127,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228139_CF08_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -303,7 +303,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
