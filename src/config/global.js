@@ -229,6 +229,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
           nombre: 'Wilson Andrés Cuervo Nieto',
           cargo: 'Instructor',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
@@ -266,39 +272,16 @@ export default {
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
+
         {
-          nombre: 'Zuleidy Maria Ruiz Torres',
-          cargo: 'Producción Audiovisual',
+          nombre: 'Carmen Alicia Martinez Torres ',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
         {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción Audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
-        },
-        {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción Audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
-        },
-        {
-          nombre: 'María Carolina Tamayo López',
-          cargo: 'Producción Audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
-        },
-        {
-          nombre: 'Ángela María Maldonado Jaime',
-          cargo: 'Producción Audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
-        },
-        {
-          nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Producción Audiovisual',
+          nombre: 'Camilo Andres Bolaño Rey ',
+          cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
         },
