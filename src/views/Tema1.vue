@@ -59,7 +59,7 @@
             figure
               img(src="@/assets/template/tema-1-6.png", alt="Texto que describa la imagen")
           .col-12.col-lg-8.px-5.py-4.align-self-center(data-aos="fade-left")
-            p Se enuncian a continuación algunas de las características principales que permiten identificar y definir un dispositivo móvil. Los <i>smartphones</i> no son los únicos que se encuentran en esta categoría; en el entorno cotidiano es posible identificar muchos otros elementos que cumplen con estas características.
+            p Se enuncian a continuación algunas de las características principales que permiten identificar y definir un dispositivo móvil. Los <i>smartphones</i> no son los únicos que se encuentran en esta categoría; en el entorno cotidiano es posible identificar muchos otros elementos que cumplen con estas características:
     .row.mt-5
       .col-10.offset-1(data-aos="zoom-in")
         LineaTiempoD.color-acento-botones
@@ -138,21 +138,21 @@
             td.p-4 1902 - Primer dispositivo electrónico considerado como móvil.
             td.p-4 Nathan B. Stubblefield 
             td.p-4 Utilizaba varios receptores de 800 metros de alcance que instaló en una plaza en Kentucky.
-            td.p-4 Los receptores funcionaban a través de campos magnéticos. El teléfono principal tenía una antena y unas bobinas en forma de rueda. El sistema servía para comunicarse con un teléfono fijo y el emisor se podía mover de mover o desplazar
+            td.p-4 Los receptores funcionaban a través de campos magnéticos. El teléfono principal tenía una antena y unas bobinas en forma de rueda. El sistema servía para comunicarse con un teléfono fijo y el emisor se podía mover de mover o desplazar.
           tr
             td.p-4 1917 
             td.p-4 Eric Tigerstedt
-            td.p-4 Teléfono plegable de bolsillo con un micrófono de carbono muy delgado
+            td.p-4 Teléfono plegable de bolsillo con un micrófono de carbono muy delgado.
             td.p-4 Usado en comunicaciones analógicas de radio de barcos y trenes.
           tr
-            td.p-4 Segunda Guerra mundial
+            td.p-4 Segunda Guerra mundial.
             td.p-4 H12-16 (desarrollado por Motorola).
             td.p-4 Dispositivos llamados Handie Talkie
             td.p-4 Era un comunicador a distancia y fue muy utilizado por las tropas y el ejército. Funcionaba por medio de ondas de radio.
           tr
             td.p-4 1973
-            td.p-4 Motorola DynaTAC 8000X 
-            td.p-4 Pesado teléfono de 4,4 libras (2 kg)
+            td.p-4 Motorola DynaTAC 8000X. 
+            td.p-4 Pesado teléfono de 4,4 libras (2 kg).
             td.p-4 El primer teléfono móvil de mano disponible comercialmente.
     Separador 
     .titulo-segundo.mt-5(data-aos="fade-right")
@@ -259,7 +259,7 @@
           p.mb-0 Recepción y salida de mensajes, tanto SMS como mensajes multimedia, MMS.
         li.d-flex 
           i.fas.fa-brain
-          p.mb-0 Aplicaciones de software básico como reloj, alarma, calendario, calculadora, juegos.
+          p.mb-0 Aplicaciones de #[em software] básico como reloj, alarma, calendario, calculadora, juegos.
         li.d-flex 
           i.fas.fa-brain
           p.mb-0 Conexiones en red con tecnologías como Infrarrojo, <i>bluetooth</i>, Wi-Fi.

@@ -62,7 +62,7 @@
       div(titulo="Windows Phone")
         .row
           .col-12.col-lg-9
-            p Desarrollado por Microsoft, y conocido antes como Windows Mobile, es un SO que se basa en el núcleo del sistema operativo Microsoft Windows CE .NET que es un sistema operativo de 32 bits, abierto y escalable, diseñado para cubrir las necesidades de un amplio rango de dispositivos inteligentes, que van desde las herramientas empresariales, como los controladores industriales y dispositivos de comunicaciones, hasta productos destinados al usuario final como cámaras de video o televisores interactivos; cuenta con un conjunto de aplicaciones básicas y está diseñado para ser similar a las versiones de escritorio de Windows estéticamente y existe una gran oferta de software de terceros disponible para Windows Mobile, la cual se podía adquirir en Windows Mar5tplace for Mobile que era un servicio de Microsoft que permitía a los usuarios navegar y descargar aplicaciones que habían sido desarrolladas por terceros.
+            p Desarrollado por Microsoft, y conocido antes como Windows Mobile, es un SO que se basa en el núcleo del sistema operativo Microsoft Windows CE .NET que es un sistema operativo de 32 bits, abierto y escalable, diseñado para cubrir las necesidades de un amplio rango de dispositivos inteligentes, que van desde las herramientas empresariales, como los controladores industriales y dispositivos de comunicaciones, hasta productos destinados al usuario final como cámaras de video o televisores interactivos; cuenta con un conjunto de aplicaciones básicas y está diseñado para ser similar a las versiones de escritorio de Windows estéticamente y existe una gran oferta de #[em software] de terceros disponible para Windows Mobile, la cual se podía adquirir en Windows Mar5tplace for Mobile que era un servicio de Microsoft que permitía a los usuarios navegar y descargar aplicaciones que habían sido desarrolladas por terceros.
           .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
             figure
               img(src="@/assets/template/tema-3-14.png", alt="Texto que describa la imagen")
@@ -110,7 +110,7 @@
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Núcleo o <i>kernel</i>").justify-content-center
             .col-10.col-lg-10.mb-lg-0.mb-3
-              p Se trata de una parte del sistema operativo que concede varios servicios de conexión a las capas superiores como, por ejemplo, los drives o controladores para el <i>hardware</i>, para la gestión de procesos, para el ingreso a la información de la memoria y gestión de la misma. Este núcleo, permite el acceso a diferentes elementos del <i>hardware</i> del dispositivo.
+              p Se trata de una parte del sistema operativo que concede varios servicios de conexión a las capas superiores como, por ejemplo, los #[em drives] o controladores para el <i>hardware</i>, para la gestión de procesos, para el ingreso a la información de la memoria y gestión de la misma. Este núcleo, permite el acceso a diferentes elementos del <i>hardware</i> del dispositivo.
             .col-5.col-lg-2.align-self-center
               figure
                 img(src="@/assets/template/tema-3-19.svg", alt="Texto que describa la imagen").m-0-auto.w-75
@@ -176,14 +176,14 @@ export default {
       {
         titulo: 'Renovación en el mercado',
         texto:
-          'Los demás SO como, por ejemplo, el Symbian o el de Blackberry, quedaron rezagados y algunos han desaparecido y otros nuevos sistemas se abren paso. Entre los SO que abren camino con contundencia está el HarmonyOS, que es el sistema operativo desarrollado por Huawei.',
+          'Los demás SO como, por ejemplo, el Symbian o el de BlackBerry, quedaron rezagados y algunos han desaparecido y otros nuevos sistemas se abren paso. Entre los SO que abren camino con contundencia está el HarmonyOS, que es el sistema operativo desarrollado por Huawei.',
         imagen: require('@/assets/template/tema-3-7.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Sistemas operativos multiforma',
+        titulo: 'Sistemas operativos multiplataforma',
         texto:
-          'El Harmony OS fue anunciado en 2019, es un sistema operativo multiplataforma, es decir, que no solo funcionará en <i>smartphones</i>, sino también con <i>smartwatchs</i>, auriculares inalámbricos, laptops, <i>tablets</i> y con el internet de las cosas. Es muy poco lo que se conoce hasta ahora, solo que se liberó el código fuente en china.',
+          'El Harmony OS fue anunciado en 2019, es un sistema operativo multiplataforma, es decir, que no solo funcionará en <i>smartphones</i>, sino también con <i>smartwatchs</i>, auriculares inalámbricos, laptops, <i>tablets</i> y con el internet de las cosas. Es muy poco lo que se conoce hasta ahora, solo que se liberó el código fuente en China.',
         imagen: require('@/assets/template/tema-3-8.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

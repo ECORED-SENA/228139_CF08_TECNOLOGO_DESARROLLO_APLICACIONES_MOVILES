@@ -10,12 +10,12 @@
             img(src="@/assets/template/Arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Herramientas para el desarrollo de #[em apps]
-        p.mb-4 Reconocer las herramientas y su implementación en el desarrollo de aplicaciones móviles.
+          h2 Evaluación de conocimientos sobre dispositivos móviles y su historia
+        p.mb-4 Identificar la evolución, características y funcionalidades de los dispositivos móviles, en particular los smartphones, permitiéndoles contextualizar y valorar la importancia de estos dispositivos en la sociedad actual.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Emparejamiento
+              p.fw-bold.mb-0 Cuestionario
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

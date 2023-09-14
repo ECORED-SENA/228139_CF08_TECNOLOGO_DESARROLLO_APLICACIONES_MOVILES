@@ -168,7 +168,7 @@ export default {
     {
       termino: '<em>Free Software</em>',
       significado:
-        'Programas desarrollados y distribuidos según la filosofía de dar al usuario la libertad de ejecutar, copiar, distribuir, estudiar, cambiar y mejorar dicho programa (Linux es un ejemplo de esta filosofía). El software libre no es siempre software gratuito (equivocación bastante habitual que tiene su origen en que la palabra inglesa free significa tanto “libre” como “gratuito”).',
+        'Programas desarrollados y distribuidos según la filosofía de dar al usuario la libertad de ejecutar, copiar, distribuir, estudiar, cambiar y mejorar dicho programa (Linux es un ejemplo de esta filosofía). El <em>software</em> libre no es siempre <em>software</em> gratuito (equivocación bastante habitual que tiene su origen en que la palabra inglesa <em>free</em> significa tanto “libre” como “gratuito”).',
     },
     {
       termino: 'PDA',
@@ -214,7 +214,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Lider del Ecosistema',
           centro: 'Dirección General',
         },
         {
