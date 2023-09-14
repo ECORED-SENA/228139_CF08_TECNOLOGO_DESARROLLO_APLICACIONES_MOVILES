@@ -214,7 +214,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Lider del Ecosistema',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
